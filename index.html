@@ -59,7 +59,7 @@
 	</body>
 		<p>
 		The overview of VALL-E.  
-		Unlike the previous pipeline (e.g., phoneme -> mel-spectrogram -> waveform), the pipeline of VALL-E is phoneme -> discrete code -> waveform.  
+		Unlike the previous pipeline (e.g., phoneme &rarr; mel-spectrogram &rarr; waveform), the pipeline of VALL-E is phoneme &rarr; discrete code &rarr; waveform.  
 		VALL-E generates the discrete audio codec codes based on phoneme and acoustic code prompts, corresponding to the target content  and the  speaker's voice. 
 		VALL-E directly enables various speech synthesis applications, such as zero-shot TTS, speech editing, and content creation combined with other generative AI models like GPT-3.
 		</p>
@@ -150,8 +150,9 @@
 			</table>
 		</div>
 </div>
+
 <div class="container pt-5 mt-5 shadow p-5 mb-5 bg-white rounded">
-			<h2 id="vctk-samples" style="text-align: center;">VCTK Samples</h2>
+	<h2 id="vctk-samples" style="text-align: center;">VCTK Samples</h2>
 		<div class="table-responsive pt-3">
 			<table class="table table-hover pt-2">
 			<thead>
@@ -237,6 +238,7 @@
 			</table>
 		</div>
 </div>
+
 <div class="container pt-5 mt-5 shadow p-5 mb-5 bg-white rounded">	
 		<h2 id="diversity-analysis" style="text-align: center;">Synthesis of Diversity</h2>
 		
@@ -244,7 +246,7 @@
 			Thanks to the sampling-based discrete token generation methods, given a pair of text and speaker prompts, VALL-E can synthesize diverse personalized speech samples with different random seeds.
 			</p>
 
-			<div class="table-responsive pt-3">
+		<div class="table-responsive pt-3">
 			<table class="table table-hover pt-2">
 			<thead>
 			<tr>
@@ -295,6 +297,7 @@
 			</table>
 		</div>
 </div>
+
 <div class="container pt-5 mt-5 shadow p-5 mb-5 bg-white rounded">	
 		<h2 id="Acoustic-Environment-Maintenance" style="text-align: center;">Acoustic Environment Maintenance</h2>
 		
@@ -302,7 +305,7 @@
 			VALL-E can synthesize personalized speech while maintaining the acoustic environment of the speaker prompt. The audio and transcriptions are sampled from the Fisher dataset.
 			</p>
 
-			<div class="table-responsive pt-3">
+		<div class="table-responsive pt-3">
 			<table class="table table-hover pt-2">
 			<thead>
 			<tr>
@@ -341,13 +344,14 @@
 			</table>
 		</div>
 </div>
+
 <div class="container pt-5 mt-5 shadow p-5 mb-5 bg-white rounded">		
 		<h2 id="Speaker-Emotion-Maintenance" style="text-align: center;">Speaker’s Emotion Maintenance</h2>
 			<p> 
 			VALL-E can synthesize personalized speech while maintaining the emotion in the speaker prompt. The audio prompts are sampled from the Emotional Voices Database.
 			</p>
-          <div class="table-responsive pt-3">
-          <table class="table table-hover pt-2">
+		<div class="table-responsive pt-3">
+			<table class="table table-hover pt-2">
 			<thead>
 			<tr>
 			<th style="text-align: center">Text</th>
@@ -387,13 +391,14 @@
 			</table>	
 		</div>
 </div>
+
 <div class="container pt-5 mt-5 shadow p-5 mb-5 bg-white rounded">		
 		<h2 id="more-samples" style="text-align: center;">More Samples </h2>
 			<p>
 			We randomly selected some transcriptions and 3s audio segments from LibriSpeech test-clean set as the text and speaker prompts and then use VALL-E to synthesize the personalized speech. Note that the transcriptions and audio segments are from different speakers, there is no ground truth speech for reference.
 			</p>
-          <div class="table-responsive pt-3">
-          <table class="table table-hover pt-2">
+		<div class="table-responsive pt-3">
+			<table class="table table-hover pt-2">
 			<thead>
 			<tr>
 			<th style="text-align: center">Text</th>
@@ -450,7 +455,7 @@
 			</tr>
 			</tbody>
 			</table>	
-</div>
+		</div>
 </article>
 </main>
 </div>
